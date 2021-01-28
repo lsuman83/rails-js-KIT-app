@@ -55,13 +55,6 @@
                         </div>
                         <!--
                           Profile dropdown panel, show/hide based on dropdown state.
-          
-                          Entering: "transition ease-out duration-100"
-                            From: "transform opacity-0 scale-95"
-                            To: "transform opacity-100 scale-100"
-                          Leaving: "transition ease-in duration-75"
-                            From: "transform opacity-100 scale-100"
-                            To: "transform opacity-0 scale-95"
                         -->
                         <div class="hidden origin-top-right absolute right-0 mt-2 w-48 rounded-md shadow-lg py-1 bg-white ring-1 ring-black ring-opacity-5" role="menu" aria-orientation="vertical" aria-labelledby="user-menu">
                           <a href="#" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100" role="menuitem">Your Profile</a>
@@ -152,7 +145,6 @@
             </header>
             <main>
                 <div class="max-w-7xl mx-auto py-6 sm:px-6 lg:px-8">
-                <!-- Replace with your content -->
                     <div class="flex flex-col">
                     <div class="-my-2 overflow-x-auto sm:-mx-6 lg:-mx-8">
                         <div class="py-2 align-middle inline-block min-w-full sm:px-6 lg:px-8">
@@ -189,7 +181,7 @@
                       </div>
                     </div>
                   </div>
-                <!-- /End replace -->
+                
                 </div>
                 <div class="modal opacity-0 pointer-events-none fixed w-full h-full top-0 left-0 flex items-center justify-center">
                   <div class="modal-overlay absolute w-full h-full bg-gray-900 opacity-50"></div>
@@ -203,7 +195,7 @@
                       <span class="text-sm">(Esc)</span>
                     </div>
               
-                    <!-- Add margin if you want to see some of the overlay behind the modal-->
+                    
                     <div class="modal-content py-4 text-left px-6">
                       <!--Title-->
                       <div class="flex justify-between items-center pb-3">
@@ -233,37 +225,16 @@
           <div  class="absolute inset-0 overflow-hidden">
             <!--
               Background overlay, show/hide based on slide-over state.
-        
-              Entering: "ease-in-out duration-500"
-                From: "opacity-0"
-                To: "opacity-100"
-              Leaving: "ease-in-out duration-500"
-                From: "opacity-100"
-                To: "opacity-0"
                 
             -->
             <div class="absolute inset-0 bg-gray-500 bg-opacity-75 transition-opacity" aria-hidden="true"></div>
             <section class="absolute inset-y-0 right-0 pl-10 max-w-full flex" aria-labelledby="slide-over-heading">
               <!--
                 Slide-over panel, show/hide based on slide-over state.
-        
-                Entering: "transform transition ease-in-out duration-500 sm:duration-700"
-                  From: "translate-x-full"
-                  To: "translate-x-0"
-                Leaving: "transform transition ease-in-out duration-500 sm:duration-700"
-                  From: "translate-x-0"
-                  To: "translate-x-full"
               -->
               <div  class="relative w-screen max-w-md">
                 <!--
                   Close button, show/hide based on slide-over state.
-        
-                  Entering: "ease-in-out duration-500"
-                    From: "opacity-0"
-                    To: "opacity-100"
-                  Leaving: "ease-in-out duration-500"
-                    From: "opacity-100"
-                    To: "opacity-0"
                 -->
                 <div class="absolute top-0 left-0 -ml-8 pt-4 pr-2 flex sm:-ml-10 sm:pr-4">
                   <button class="rounded-md text-gray-300 hover:text-white focus:outline-none focus:ring-2 focus:ring-white">
